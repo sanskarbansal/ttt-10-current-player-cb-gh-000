@@ -1,7 +1,7 @@
 def turn_count(board)
   count = 0
   board.each do | val |
-    if val != "" || val != " "
+    if val != "" && val != " "
       count += 1
     end
   end
