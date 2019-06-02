@@ -4,6 +4,7 @@ def turn_count(board)
     if val != "" || val != " "
       count += 1
     end
+  end
   count
 end
 
